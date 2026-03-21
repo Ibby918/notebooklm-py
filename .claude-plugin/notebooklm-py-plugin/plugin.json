@@ -1,0 +1,7 @@
+{
+  "name": "notebooklm-py",
+  "description": "Python API for Google NotebookLM. Generate podcasts, quizzes, flashcards. Requires: pip install notebooklm-py[browser]",
+  "author": {
+    "name": "teng-lin"
+  }
+}

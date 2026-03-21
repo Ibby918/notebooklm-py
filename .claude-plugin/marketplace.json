@@ -1,14 +1,20 @@
 {
-    "description":  "Python API for Google NotebookLM. Generate podcasts, quizzes, flashcards. Requires: pip install notebooklm-py[browser]",
-    "name":  "notebooklm-py",
-    "display_name":  "NotebookLM Python",
-    "plugins":  [
-                    {
-                        "path":  ".",
-                        "description":  "Python API for Google NotebookLM. Generate podcasts, quizzes, flashcards. Requires: pip install notebooklm-py[browser]",
-                        "name":  "notebooklm-py",
-                        "display_name":  "NotebookLM Python"
-                    }
-                ],
-    "version":  "1.0.0"
+  "name": "notebooklm-py",
+  "owner": {
+    "name": "teng-lin"
+  },
+  "metadata": {
+    "description": "Python API for Google NotebookLM. Generate podcasts, quizzes, flashcards. Requires: pip install notebooklm-py[browser]"
+  },
+  "plugins": [
+    {
+      "name": "notebooklm-py",
+      "source": "./notebooklm-py-plugin",
+      "description": "Python API for Google NotebookLM. Generate podcasts, quizzes, flashcards. Requires: pip install notebooklm-py[browser]",
+      "author": {
+        "name": "teng-lin"
+      },
+      "category": "productivity"
+    }
+  ]
 }
