@@ -1,5 +1,8 @@
-{
+﻿{
   "name": "notebooklm-py",
-  "description": "Python API for Google NotebookLM. Generate podcasts, quizzes, flashcards, mind maps and slide decks. Requires: pip install notebooklm-py[browser]",
-  "author": { "name": "teng-lin" }
+  "description": "Python API for Google NotebookLM. Generate podcasts, quizzes, flashcards, mind maps and slide decks.",
+  "author": {
+    "name": "teng-lin"
+  },
+  "homepage": "https://github.com/Ibby918/notebooklm-py"
 }

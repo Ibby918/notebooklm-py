@@ -1,0 +1,22 @@
+﻿{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "notebooklm-py",
+  "owner": {
+    "name": "teng-lin"
+  },
+  "metadata": {
+    "description": "Python API for Google NotebookLM. Generate podcasts, quizzes, flashcards, mind maps and slide decks."
+  },
+  "plugins": [
+    {
+      "name": "notebooklm-py",
+      "source": "./notebooklm-py-plugin",
+      "description": "Python API for Google NotebookLM. Generate podcasts, quizzes, flashcards, mind maps and slide decks.",
+      "author": {
+        "name": "teng-lin"
+      },
+      "category": "productivity",
+      "homepage": "https://github.com/Ibby918/notebooklm-py"
+    }
+  ]
+}
